@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Spacer, Tag } from "@chakra-ui/react"
+import { Box, Flex, Text, Spacer, Tag, Button } from "@chakra-ui/react"
 import { HiCalendar } from "react-icons/hi"
 import dayjs from "dayjs"
 import "dayjs/locale/es"
@@ -11,7 +11,7 @@ export function LaunchItem(launch) {
           Mission <strong>{launch.mission_name}</strong> ({launch.launch_year})
         </Text>
         <Spacer />
-        <Tag p={4} colorScheme={launch.launch_success ? "green" : "red"}>
+        <Tag p={2} colorScheme={launch.launch_success ? "green" : "red"}>
           {launch.launch_success ? "Success" : "Failure"}
         </Tag>
       </Flex>
@@ -22,6 +22,10 @@ export function LaunchItem(launch) {
           {dayjs(launch.launch_date_local).locale("es").format("D MMMM, YYYY")}
         </Text>
       </Flex>
+
+      <Button colorScheme="purple" mt={2}>
+        More Details
+      </Button>
     </Box>
   )
 }
