@@ -14,3 +14,7 @@ Aplicación React desde cero siguiento el directo en [Twitch](https://www.twitch
 - Componentes: [Chakra UI](https://chakra-ui.com/)
 - Iconos: [React Icons](https://react-icons.github.io/react-icons/)
 - Gestión de fechas: [Day.js](https://day.js.org/)
+
+<br>
+
+<img src="./docs/app.png" alt="app" width="400"/>
