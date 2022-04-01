@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Spacer, Tag, Button } from "@chakra-ui/react"
+import { Box, Flex, Text, Spacer, Tag, Button, Icon } from "@chakra-ui/react"
 import { HiCalendar } from "react-icons/hi"
 import dayjs from "dayjs"
 import "dayjs/locale/es"
@@ -17,8 +17,8 @@ export function LaunchItem(launch) {
       </Flex>
 
       <Flex align="center">
-        <HiCalendar />
-        <Text fontSize="sm" ml={1}>
+        <Icon as={HiCalendar} color="gray.500" />
+        <Text fontSize="sm" ml={1} color="gray.500">
           {dayjs(launch.launch_date_local).locale("es").format("D MMMM, YYYY")}
         </Text>
       </Flex>
