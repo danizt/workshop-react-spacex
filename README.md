@@ -8,4 +8,3 @@ Aplicación React desde cero siguiento el directo en [Twitch](https://www.twitch
 
 - Proyecto React creado con Vite
 - Consultas al API de SpaceX ([docs](https://docs.spacexdata.com/))
-

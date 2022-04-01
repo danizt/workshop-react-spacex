@@ -1,13 +1,12 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react"
 import * as API from "./services/launches"
 
-
 export function App() {
-  const [launches, setLaunches] = useState([]);
+  const [launches, setLaunches] = useState([])
 
   useEffect(() => {
-    API.getAllLaunches().then(setLaunches);
-  }, []);
+    API.getAllLaunches().then(setLaunches)
+  }, [])
 
   return (
     <>
