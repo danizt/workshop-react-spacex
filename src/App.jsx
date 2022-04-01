@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react"
-import { Heading, Box, Image, Flex, Text, Spacer, Tag } from "@chakra-ui/react"
-import { HiCalendar } from "react-icons/hi"
-import dayjs from "dayjs"
-import "dayjs/locale/es"
+import { Heading, Image } from "@chakra-ui/react"
+
+import { LaunchItem } from "./components/LaunchItem"
 import * as API from "./services/launches"
 import logo from "./assets/logo-spacex.png"
 
@@ -21,26 +20,7 @@ export function App() {
       </Heading>
       <section>
         {launches.map((launch, index) => (
-          <Box key={index} bg="gray.100" p={4} m={4} borderRadius="lg">
-            <Flex>
-              <Text fontSize="2xl" mr={4}>
-                Mission <strong>{launch.mission_name}</strong> (
-                {launch.launch_year})
-              </Text>
-              <Spacer />
-              <Tag p={4} colorScheme={launch.launch_success ? "green" : "red"}>
-                {launch.launch_success ? "Success" : "Failure"}
-              </Tag>
-            </Flex>
-            <Flex align="center">
-              <HiCalendar />
-              <Text fontSize="sm" ml={1}>
-                {dayjs(launch.launch_date_local)
-                  .locale("es")
-                  .format("D MMMM, YYYY")}
-              </Text>
-            </Flex>
-          </Box>
+          <LaunchItem key={index} {...launch} />
         ))}
       </section>
     </>
