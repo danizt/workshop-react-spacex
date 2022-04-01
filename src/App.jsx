@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react"
 import { Heading, Box, Image, Flex, Text, Spacer, Tag } from "@chakra-ui/react"
 import { HiCalendar } from "react-icons/hi"
+import dayjs from "dayjs"
+import "dayjs/locale/es"
 import * as API from "./services/launches"
 import logo from "./assets/logo-spacex.png"
 
@@ -33,7 +35,9 @@ export function App() {
             <Flex align="center">
               <HiCalendar />
               <Text fontSize="sm" ml={1}>
-                {launch.launch_date_local.split("T")[0]}
+                {dayjs(launch.launch_date_local)
+                  .locale("es")
+                  .format("D MMMM, YYYY")}
               </Text>
             </Flex>
           </Box>
