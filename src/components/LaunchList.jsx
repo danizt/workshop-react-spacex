@@ -18,11 +18,15 @@ export function LaunchList() {
       <Heading align="center" as="h1" size="lg" m={4}>
         SpaceX Launches
       </Heading>
-      <section>
-        {launches.map((launch, index) => (
-          <LaunchItem key={index} {...launch} />
-        ))}
-      </section>
+      {launches.length === 0 ? (
+        <div>Loading</div>
+      ) : (
+        <section>
+          {launches.map((launch, index) => (
+            <LaunchItem key={index} {...launch} />
+          ))}
+        </section>
+      )}
     </>
   )
 }
