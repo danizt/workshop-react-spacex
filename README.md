@@ -17,6 +17,7 @@ Aplicación React desde cero siguiento el taller de [Carlos Azaustre](https://gi
 - Componentes: [Chakra UI](https://chakra-ui.com/)
 - Iconos: [React Icons](https://react-icons.github.io/react-icons/)
 - Gestión de fechas: [Day.js](https://day.js.org/)
+- Rutas: [React Router](https://reactrouter.com/)
 
 <br>
 
