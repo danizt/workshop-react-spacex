@@ -1,6 +1,9 @@
 # Workshop React - SpaceX Missions
 
-Aplicación React desde cero siguiento el directo en [Twitch](https://www.twitch.tv/videos/1442177483) de [Carlos Azaustre](https://github.com/carlosazaustre).
+Aplicación React desde cero siguiento el taller de [Carlos Azaustre](https://github.com/carlosazaustre).
+
+- Día 1: [Twitch](https://www.twitch.tv/videos/1442177483) | YouTube
+- Día 2: [Twitch](https://www.twitch.tv/videos/1446155826) | YouTube
 
 <br>
 
