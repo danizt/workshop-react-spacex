@@ -2,8 +2,8 @@
 
 Aplicación React desde cero siguiento el taller de [Carlos Azaustre](https://github.com/carlosazaustre).
 
-- Día 1: [Twitch](https://www.twitch.tv/videos/1442177483) | YouTube
-- Día 2: [Twitch](https://www.twitch.tv/videos/1446155826) | YouTube
+- Día 1: [YouTube](https://youtu.be/4AFOCAgywLc)
+- Día 2: [Twitch](https://www.twitch.tv/videos/1446155826)
 
 <br>
 
