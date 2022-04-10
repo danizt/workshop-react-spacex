@@ -7,6 +7,13 @@ Aplicación React desde cero siguiento el taller de [Carlos Azaustre](https://gi
 
 <br>
 
+## Instalación
+
+```
+npm install
+npm run dev
+```
+
 ## Características
 
 - Proyecto React creado con Vite
