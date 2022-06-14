@@ -3,7 +3,7 @@
 Aplicación React desde cero siguiento el taller de [Carlos Azaustre](https://github.com/carlosazaustre).
 
 - Día 1: [YouTube](https://youtu.be/4AFOCAgywLc)
-- Día 2: [Twitch](https://www.twitch.tv/videos/1446155826)
+- Día 2: [YouTube](https://youtu.be/afDXVnDnBf4)
 
 <br>
 
